@@ -2,7 +2,7 @@
 
 int main() {
     int trade_id;
-    printf("Enter Trade ID: ");
+    printf("Введите Trade ID: ");
     scanf("%d", &trade_id);
 
     printf("Trade ID: %d", trade_id);
@@ -17,7 +17,7 @@ int main() {
         char city[50];
         float comm;
 
-        printf("Enter manager id, name, city, commission: ");
+        printf(" manager id, name, city, commission: ");
         scanf("%d %s %s %f", &manager_id, name, city, &comm);
 
         printf("Manager %d: ID = %d, Name = %s, City = %s, Commission = %.2f",
